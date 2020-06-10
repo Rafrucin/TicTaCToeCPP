@@ -1,0 +1,120 @@
+object Form1: TForm1
+  Left = 210
+  Top = 130
+  BorderStyle = bsToolWindow
+  Caption = 'Tic Tac Toe'
+  ClientHeight = 335
+  ClientWidth = 616
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 464
+    Top = 72
+    Width = 70
+    Height = 36
+    Caption = 'Turn '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object turn: TImage
+    Left = 544
+    Top = 72
+    Width = 30
+    Height = 30
+  end
+  object p9: TImage
+    Left = 288
+    Top = 216
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p9Click
+  end
+  object p8: TImage
+    Left = 192
+    Top = 216
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p8Click
+  end
+  object p7: TImage
+    Left = 96
+    Top = 216
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p7Click
+  end
+  object p6: TImage
+    Left = 288
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p6Click
+  end
+  object p5: TImage
+    Left = 192
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p5Click
+  end
+  object p4: TImage
+    Left = 96
+    Top = 120
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p4Click
+  end
+  object p3: TImage
+    Left = 288
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p3Click
+  end
+  object p2: TImage
+    Left = 192
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p2Click
+  end
+  object p1: TImage
+    Left = 96
+    Top = 24
+    Width = 100
+    Height = 100
+    Cursor = crHandPoint
+    OnClick = p1Click
+  end
+  object Restart: TButton
+    Left = 464
+    Top = 184
+    Width = 75
+    Height = 25
+    Cursor = crHandPoint
+    Caption = 'Restart'
+    TabOrder = 0
+    OnClick = FormCreate
+  end
+end
